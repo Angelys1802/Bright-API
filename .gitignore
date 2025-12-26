@@ -1,6 +1,24 @@
-.venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual env
+.venv/
+venv/
+
+# Env
 .env
-brigh.db
+.env.*
+
+# DB / local state
+*.db
+*.sqlite
+*.sqlite3
+
+# OS / editor
 .DS_Store
+.vscode/
+.idea/
